@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#a{
+    background-color: black;
+    margin: 0px;
+}
+
+#a div h1{
+    color: red;
+}
+#a div h2{
+    color: blue;
+}
+#a div h3{
+    color: brown;
+}
+#a div h4{
+    color: coral;
+}
+#a div h5{
+    color: darkgoldenrod;
+}
+#a div h6{
+    color: darkseagreen;
+}
+#a div{
+    text-align: center;
+}
+#b{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#b div{
+    margin: auto;
+    display: inline-block;
+    width: 1000px;
+    background-color: tomato;
+    border: 3px solid black;
+    text-align: center;
+    height: 400px;
+}
+#b div div{
+    margin: auto;
+    margin-top: 30px;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: left;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+}
+#b div div p a{
+    color: orange;
+}
+#c{
+    margin-bottom: 40px;
+}
+#c>div{
+text-align:  center;
+background-color: coral;
+padding-top: 30px;
+}
+#c>div>div{
+    display: inline-block;
+    height: auto;
+}
+.c-content{
+    width: 100%;
+    background-color: white;
+}
+.c-content p{
+}
