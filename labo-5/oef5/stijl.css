@@ -1,0 +1,79 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+body *{
+    border: 1px solid black;
+}
+body{
+    background-color: lightgray;
+    padding: 3rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+header{
+    grid-row: 1;
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightskyblue;
+    border-radius: 1.5rem 1.5rem 0 0;
+    box-shadow: black 5px 5px 3px;
+}
+
+header h1{
+    grid-column: 1;
+    background-color: blue;
+    height: 2rem;
+}
+
+header nav{
+    grid-column: 2;
+    background-color: blue;
+    height: 2rem;
+}
+
+main{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: wheat;
+    box-shadow: black 5px 5px 3px;
+}
+
+main article{
+    background-color: orange;
+}
+main aside{
+    background-color: coral;
+
+}
+footer{
+    grid-row: 3;
+    background-color: lightseagreen;
+    border-radius: 0 0 2rem 2rem;
+    padding: 1.5rem;
+    box-shadow: black 5px 5px 3px;
+}
+
+footer ul{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    border: none;
+}
+
+footer ul li{
+    background-color: seagreen;
+    height: 2rem;
+}
+
