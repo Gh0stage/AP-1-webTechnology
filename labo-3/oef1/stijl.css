@@ -1,0 +1,35 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+body{
+    border: 4px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    font-size: 2rem;
+}
+.colorContainer{
+    width: 100%;
+    height: 50vh;
+    color: white;
+    text-align: center;
+    padding-top: 23vh;
+}
+#tomato{
+    background-color: tomato;
+}
+#orangered{
+    background-color: orangered;
+}
+#coral{
+    background-color: coral;
+}
+#lightsalmon{
+    background-color: lightsalmon;
+}
+#darkorange{
+    background-color: darkorange;
+}

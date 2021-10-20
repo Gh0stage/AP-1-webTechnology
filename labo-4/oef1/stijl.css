@@ -1,0 +1,27 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+body{
+    padding: 10vw;
+}
+h2{
+    text-align: right;
+    margin: 1rem 0rem;
+}
+div{
+    height: 30vh ;
+    width: 100%;
+}
+div:first-of-type{
+    background-image: url("../resources/hcb.jpg");
+    background-position: center 24%;
+    background-size: cover;
+}
+div:nth-of-type(2){
+    background-image: url("../resources/we.jpeg");
+    background-position: center 65% ;
+    background-size: cover;
+}
