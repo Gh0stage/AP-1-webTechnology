@@ -1,0 +1,127 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+body{
+    margin: auto;
+}
+
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5fr 4fr 4fr 5fr;
+    grid-template-rows: 5fr 4fr 4fr 5fr;
+    width: 80vh;
+    height: 80vh;
+    margin-top: 10vh;
+}
+div div div{
+    border-radius: 2rem;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+}
+.partNr1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.partNr2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #4863A0;
+    margin-bottom: 1rem;
+    border-radius: 100%/50% 0 0 0;
+}
+.partNr2 div{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.partNr3{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #4863A0;
+    border-radius: 0 4rem 0 0;
+}
+.partNr4{
+    grid-column: 4;
+    grid-row: 1;
+}
+.partNr5{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #4863A0;
+    border-radius: 4rem 0 0 0;
+}
+.partNr6{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #4863A0;
+}
+.partNr7{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #4863A0;
+    border-radius: 0 0 4rem 0;
+}
+.partNr8{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: gold;
+    border-radius: 0 4rem 0 0;
+    margin-left: 1rem;
+}
+.partNr9{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #4863A0;
+    border-radius: 0 0 0  4rem;
+    margin-right: 1rem;
+}
+.partNr10{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: gold;
+    border-radius:  4rem 0 0 0 ;
+    margin-top: 1rem;
+
+}
+.partNr11{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: gold;
+    margin-top: 1rem;
+}
+.partNr12{
+    grid-column: 4;
+    grid-row: 3;
+    background-color: gold;
+    border-radius: 0 0 4rem 0 ;
+}
+.partNr13{
+    grid-column: 1;
+    grid-row: 4;
+}
+.partNr14{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: gold;
+    border-radius: 0 0 0 4rem ;
+
+}
+.partNr15{
+    grid-column: 3;
+    grid-row: 4;
+    background-color: gold;
+    margin-top: 1rem;
+    border-radius: 0 0 4rem 0 ;
+}
+.partNr15 div{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.partNr16{
+    grid-column: 4;
+    grid-row: 4;
+}
