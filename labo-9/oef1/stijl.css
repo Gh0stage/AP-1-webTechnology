@@ -1,0 +1,14 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+object{
+width: 20vw;
+height: auto;
+}
+
+@keyframes dvd{
+    0% {filter: invert(10%) sepia(100%) saturate(7489%) hue-rotate(243deg) brightness(92%) contrast(124%);}
+}
